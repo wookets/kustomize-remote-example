@@ -1,0 +1,6 @@
+bases:
+  #- https://raw.githubusercontent.com/wookets/kustomize-remote-example/master/base/deployment.yaml
+  - github.com/wookets/kustomize-remote-example/base
+
+commonLabels:
+  app: hello
